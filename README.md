@@ -13,20 +13,6 @@ With the following analysis we want to answer some important questions like. Wha
 
 First of all we install the packages and libraries necessary to work in R.
 
-#the str() function returns information about the name, class and observations of each of the columns:
-250 observations and 9 variables
-$ model       : chr  
-$ brand       : chr 
-$ price       : num  
-$ energy      : num  
-$ range       : num  
-$ battery     : num 
-$ fastchargue : num  
-$ topspeed    : num 
-$ acceleration: num  
-
-#the summary() function returns the min., 1st Qu., Median, Mean, 3rd Qu. and max. of each of the columns
-
 #We build the correlation matrix for the numeric variables: price, energy consumption, range, battery size, fastcharge,  top speed and acceleration
 price energy  range battery fastchargue topspeed acceleration
 
