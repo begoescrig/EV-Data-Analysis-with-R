@@ -8,6 +8,8 @@ The Commission has therefore installed the European Alternative Fuels Observator
 
 The dataset created for this proyect comes from the European Alternative Fuels Observatory web https://alternative-fuels-observatory.ec.europa.eu/consumer-portal/available-electric-vehicle-models, and https://ev-database.org/ 
 
+With the following analysis we want to answer some important questions like. What is the most sustainable vehicle? Which vehicle should I buy? How many times a month do I have to recharge my vehicle if I want to use it to go to work every day? How much time do I need to fully recharge my vehicle? Where can I recharge my vehicle when making a trip? How many stops should I make?...
+
 [ev.xlsx](https://github.com/begoescrig/EV-analytics-with-R/files/9820701/ev.xlsx)
 
 ![ev pairs](https://user-images.githubusercontent.com/94619879/196699468-94ffdeda-0714-47c1-97b4-7b819a8e3b74.png)
