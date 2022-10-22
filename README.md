@@ -1,4 +1,4 @@
-# Electric Vehicle analytics with R
+# EV Data Analysis with R
 
 The Green Deal adopted by the new European Commission sets a clear objective: by 2050, transport emissions will have to be reduced by 90 %, compared to 1990 levels. To this end, the transition from the use of fossil fuels for mobility, to the use of alternative fuels, needs to be accelerated. Production and use of alternative fuels must be ramped up.
 
