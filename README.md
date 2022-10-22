@@ -45,4 +45,9 @@ With the following analysis we want to answer some important questions like: wha
 #and for Kia models.
 ![kia cor](https://user-images.githubusercontent.com/94619879/196700434-c5662ad9-6fba-45ed-9bbb-8c7e93f5cc07.png)
 
+#We build the plot to compare the price of the 250 different models of EV.
+![ev plot](https://user-images.githubusercontent.com/94619879/197350398-d6d4d0cf-5f4e-47eb-afb1-74e62d6a6601.png)
+
+
+
 
