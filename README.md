@@ -21,6 +21,156 @@ With the following analysis we want to answer some important questions like: wha
 
 ![ev cor](https://user-images.githubusercontent.com/94619879/196699521-7d708189-2e80-497e-a6de-38fbd7b75523.png)
 
+#Observations:
+#1. The battery is one of the key elements in Electric Vehicles. The correlation between Range (km) and Battery size (kWh) is 0.88. It shows that these two variables are highly positively correlated. 
+#2. The correlation between Acceleration (sec) and Top Speed (km/h) is -0.87. It shows that these two variables are highly negatively correlated. 
+#3. The correlation between price (€) and energy consumption (kWh/km) is 0.03. It shows that these two variables are not correlated at all, and on the other hand, the correlation between price (€) and the rest of variables or characteristics is > (-)5, reaching 0.69 when compared with the Top Speed (kmh).
+
+#We import the "ev" dataset again with all the variables.
+library(readxl)
+ev <- read_excel("ev.xlsx")
+View(ev)
+
+#We select all the variables for "Audi" from the dataframe.
+ev.audi<-ev[2:17,3:9]
+print(ev.audi)
+
+#We build the correlation matrix,
+audi.cor<-cor(ev.audi, method="pearson")
+print(audi.cor)
+round(audi.cor, digits=3)
+
+#the pairs plot,
+pairs(ev.audi)
+
+#and the correlation plot.
+corPlot(audi.cor)
+
+#We select all the variables for "Tesla" from the dataframe.
+ev.tesla<-ev[213:222,3:9]
+print(ev.tesla)
+
+#We build the correlation matrix,
+tesla.cor<-cor(ev.tesla, method="pearson")
+print(tesla.cor)
+round(tesla.cor, digits=3)
+
+#the pairs plot,
+pairs(ev.tesla)
+
+#and the correlation plot.
+corPlot(tesla.cor)
+
+#We select all the variables for "Mercedes" from the dataframe.
+ev.mer<-ev[98:128,3:9]
+print(ev.mer)
+
+#We build the correlation matrix,
+mer.cor<-cor(ev.mer, method="pearson")
+print(mer.cor)
+round(mer.cor, digits=3)
+
+#the pairs plot,
+pairs(ev.mer)
+
+#and the correlation plot.
+corPlot(mer.cor)
+
+#We select all the variables for "Toyota" from the dataframe.
+ev.toy<-ev[223:232,3:9]
+print(ev.toy)
+
+#We build the correlation matrix,
+toy.cor<-cor(ev.toy, method="pearson")
+print(toy.cor)
+round(toy.cor, digits=3)
+
+#the pairs plot,
+pairs(ev.toy)
+
+#and the correlation plot. 
+corPlot(toy.cor)
+
+#We select all the variables for "Hyundai" from the dataframe.
+ev.hyu<-ev[72:79,3:9]
+print(ev.hyu)
+
+#We build the correlation matrix,
+hyu.cor<-cor(ev.hyu, method="pearson")
+print(hyu.cor)
+round(hyu.cor, digits=3)
+
+#the pairs plot, 
+pairs(ev.hyu)
+
+#and the correlation plot.
+corPlot(hyu.cor)
+
+#We select all the variables for "Peugeot" from the dataframe.
+ev.peu<-ev[156:169,3:9]
+print(ev.peu)
+
+#We build the correlation matrix,
+peu.cor<-cor(ev.peu, method="pearson")
+print(peu.cor)
+round(peu.cor, digits=3)
+
+#the pairs plot, 
+pairs(ev.peu)
+
+#and the correlation plot.
+corPlot(peu.cor)
+
+#We select all the variables for "Lucid" from the dataframe.
+ev.luc<-ev[92:96,3:9]
+print(ev.luc)
+
+#We build the correlation matrix,
+luc.cor<-cor(ev.luc, method="pearson")
+print(luc.cor)
+round(luc.cor, digits=3)
+
+#the pairs plot, 
+pairs(ev.luc)
+
+#and the correlation plot. 
+corPlot(luc.cor)
+
+#We select all the variables for "Kia" from the dataframe.
+ev.kia<-ev[84:88,3:9]
+print(ev.kia)
+
+#We build the correlation matrix,
+kia.cor<-cor(ev.kia, method="pearson")
+print(kia.cor)
+round(kia.cor, digits=3)
+
+#the pairs plot, 
+pairs(ev.kia)
+
+#and the correlation plot. 
+corPlot(kia.cor)
+
+#We build the plot to compare the price of the 250 different models of EV.
+ggplot(data=ev, aes(price, model)) +
+  geom_col(color="blue", size= 0.5) +
+  theme(text = element_text(size = 5, family = "sans")) +
+  labs(x="price", y="model", title= "Price vs model")
+
+ 
+  
+  
+  
+
+  
+
+
+
+
+
+
+
+
 #We build the correlation plot for Audi models,
 ![audi cor](https://user-images.githubusercontent.com/94619879/196699655-ef323e5a-c7e5-4105-ba2a-191b84844e3d.png)
 
