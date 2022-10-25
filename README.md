@@ -22,8 +22,11 @@ With the following analysis we want to answer some important questions like: wha
 ![ev cor](https://user-images.githubusercontent.com/94619879/196699521-7d708189-2e80-497e-a6de-38fbd7b75523.png)
 
 #Observations:
+
 #1. The battery is one of the key elements in Electric Vehicles. The correlation between Range (km) and Battery size (kWh) is 0.88. It shows that these two variables are highly positively correlated. 
+
 #2. The correlation between Acceleration (sec) and Top Speed (km/h) is -0.87. It shows that these two variables are highly negatively correlated. 
+
 #3. The correlation between price (€) and energy consumption (kWh/km) is 0.03. It shows that these two variables are not correlated at all, and on the other hand, the correlation between price (€) and the rest of variables or characteristics is > (-)5, reaching 0.69 when compared with the Top Speed (kmh).
 
 #We import the "ev" dataset again with all the variables.
