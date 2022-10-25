@@ -11,13 +11,13 @@ The dataset created for this project comes from the European Alternative Fuels O
 
 With the following analysis we want to answer some important questions like: what is the most sustainable vehicle? Which vehicle should I buy? How many times a month do I have to recharge my vehicle if I want to use it to go to work every day? How much time do I need to fully recharge my vehicle? Where can I recharge my vehicle when making a trip? How many stops should I make?...
 
-#We build the correlation matrix for the numeric variables: price, energy consumption, range, battery size, fastcharge,  top speed and acceleration;
+#We build the correlation matrix for the numeric variables: price (€), energy consumption (kWh/km), range (km), battery size (kWh), fastcharge (km/h),  top speed (kmh) and acceleration 0-100 (sec),
 
-#the pairs plot
+#the pairs plot,
 
 ![ev pairs](https://user-images.githubusercontent.com/94619879/196699468-94ffdeda-0714-47c1-97b4-7b819a8e3b74.png)
 
-#and the correlation plot
+#and the correlation plot.
 
 ![ev cor](https://user-images.githubusercontent.com/94619879/196699521-7d708189-2e80-497e-a6de-38fbd7b75523.png)
 
