@@ -38,7 +38,7 @@ for Tesla models,
 for Mercedes models,
 ![mer cor](https://user-images.githubusercontent.com/94619879/196699885-6f5fa29d-e489-4b67-8b64-8c1553ee2462.png)
 
-for Toyoya models,
+for Toyota models,
 ![toy cor](https://user-images.githubusercontent.com/94619879/196700200-073ab87b-d2ba-4198-8147-ccf8a6acdeb4.png)
 
 for Hyundai models,
